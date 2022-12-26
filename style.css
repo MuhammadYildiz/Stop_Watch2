@@ -1,0 +1,43 @@
+.wtch-container{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   height: 90vh;
+   margin: auto;
+   background-color: rgb(15, 75, 148);
+   justify-content: center;
+   margin-top: 50px;
+   align-items: center;
+   border-radius: 50%;
+}
+.wtch-container h1{
+    color: rgb(15, 75, 148);
+    background-color: aliceblue;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    border-radius: 30px;
+}
+button{
+    background-color: aliceblue;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 20px 10px;
+    min-width: 200px;
+    transition: all 0.5s;
+    color: rgb(15, 75, 148);;
+}
+button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.time{
+    display: flex;
+    margin: 50px;
+    background-color: aliceblue;
+    padding: 10px 40px;
+    font-size: 40px;
+}
