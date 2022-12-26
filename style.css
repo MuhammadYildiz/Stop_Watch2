@@ -18,6 +18,12 @@
     margin-bottom: 80px;
     border-radius: 30px;
 }
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 button{
     background-color: aliceblue;
     border: none;
@@ -40,4 +46,10 @@ button:hover{
     background-color: aliceblue;
     padding: 10px 40px;
     font-size: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .wtch-container{
+        width: 95%;
+    }
 }
